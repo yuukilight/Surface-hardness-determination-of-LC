@@ -317,11 +317,12 @@ class CNN(torch.nn.Module):
 
 
 if __name__ == '__main__':
-    model = CNN()
-    model.cuda()
-    model.double()
-    x = torch.rand(10, 1, 8192)
-    x = x.cuda()
-    x = x.double()
-    out = model(x)
-    print(out.size())
+    # model = CNN()
+    # model.cuda()
+    # model.double()
+    # x = torch.rand(10, 1, 8192)
+    # x = x.cuda()
+    # x = x.double()
+    # out = model(x)
+    # print(out.size())
+    print("main branch")_
