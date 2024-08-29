@@ -7,7 +7,6 @@ from torch.utils.tensorboard import SummaryWriter
 import numpy as np
 from torch import nn
 
-
 # 建立模型
 class SimpleModel(torch.nn.Module):
     def __init__(self):
@@ -317,11 +316,12 @@ class CNN(torch.nn.Module):
 
 
 if __name__ == '__main__':
-    model = CNN()
-    model.cuda()
-    model.double()
-    x = torch.rand(10, 1, 8192)
-    x = x.cuda()
-    x = x.double()
-    out = model(x)
-    print(out.size())
+    # model = CNN()
+    # model.cuda()
+    # model.double()
+    # x = torch.rand(10, 1, 8192)
+    # x = x.cuda()
+    # x = x.double()
+    # out = model(x)
+    # print(out.size())
+    print("tmp_branch")
