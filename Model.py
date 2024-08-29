@@ -7,7 +7,6 @@ from torch.utils.tensorboard import SummaryWriter
 import numpy as np
 from torch import nn
 
-
 # 建立模型
 class SimpleModel(torch.nn.Module):
     def __init__(self):
@@ -325,4 +324,6 @@ if __name__ == '__main__':
     # x = x.double()
     # out = model(x)
     # print(out.size())
-    print("main branch")_
+    print("main branch")
+    print("tmp_branch")
+    print("has merge")
